@@ -64,4 +64,5 @@ export default function MovieModal({ movie, onClose }: MovieModalProps) {
         </div>,
         document.body
     );
+    
 }
