@@ -4,7 +4,7 @@ import type { Movie } from '../../types/movie.ts';
 interface MovieGridProps{
     onSelect: (movie: Movie) => void;
     movies: Movie[];
-
+//force rebuild
 }
 
 export default function MovieGrid({ onSelect, movies }: MovieGridProps) {
