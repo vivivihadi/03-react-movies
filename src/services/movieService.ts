@@ -14,6 +14,7 @@ export const fetchMovies = async (query: string): Promise<Movie[]> => {
             },
             headers: {
                 Authorization: `Bearer ${import.meta.env.VITE_TMDB_TOKEN}`,
+                accept: 'application/json',
             }
         }
   );
